@@ -12,7 +12,7 @@ Features:
 - Sample questions in the sidebar for one-click testing
 
 Run with:
-    streamlit run telecom_streamlit_app.py
+    streamlit run app2.py
 
 Requires retriever.py and rag_chain.py in the same folder, a populated
 chroma_store/ directory (run ingest_faq.py, ingest_pdf.py, and
@@ -44,7 +44,7 @@ if not os.getenv("GROQ_API_KEY"):
     )
     st.stop()
 
-from rag_chain import answer_question  # noqa: E402
+from rag_chain2 import answer_question  # noqa: E402
 from langchain_core.messages import HumanMessage, AIMessage  # noqa: E402
 
 # ----------------------------------------------------------------------
