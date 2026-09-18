@@ -1,0 +1,5 @@
+.env
+.venv
+rag_chain.py
+__pycache__/
+retriever.py
